@@ -1,0 +1,47 @@
+body{
+  background: rgb(245,245,245);
+  color: black;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+
+h1{
+  font-family: Spartan;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Spartan;
+  color: pink;
+  font-weight: lighter;
+  font-size: 8px;
+}
+
+a {
+  color: yellow;
+}
+
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+.header {
+  background: url(https://images.unsplash.com/photo-1570441262582-a2d4b9a916a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=2831&q=80)
+  no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  filter: brightness(50%)
+}
+
+.header h1 {
+  color: yellow;
+  line-height: 100px;
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
